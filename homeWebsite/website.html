@@ -1,10 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+.tableBordered, .tableBordered th, .tableBordered td {
+  border: 1px solid black;
+}
+
+th {
+    text-align: left;
+}
+</style>
 <head>
     <meta charset="UTF-8">
     <title>HomeWork 7</title>
 </head>
 <body>
-
+<label>Задание 1: Table</label><br>
+<table class="tableBordered">
+    <thead>
+        <tr>
+            <th>Номер</th>
+            <th>1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Имя/Фамилия</td>
+            <td>Мялик Вадим</td>
+        </tr>
+        <tr>
+            <td>Github</td>
+            <td>https://github.com/Sentelzzz</td>
+        </tr>
+    </tbody>
+</table><br><br>
+<label for="tname">Задание 2: Input</label><br>
+<input type="text" id="tname" name="tname"><br><br>
+<input type="submit" value="Submit"><br><br>
+<label>Задание 3: Checkbox</label><br>
+<input type="checkbox" id="yes" name="yes" value="yes">
+<label>ДА</label><br>
+<input type="checkbox" id="no" name="no" value="no">
+<label>НЕТ</label><br><br>
+<input type="submit" value="Submit"><br><br>
+<label for="languages">Задание 4: Select</label><br>
+<select name="languages" id="languages">
+    <option value="JAVA">JAVA</option>
+    <option value="Piton">Piton</option>
+    <option value="JavaScript">JavaScript</option>
+</select><br><br>
+<input type="submit" value="Submit"><br><br>
+<label for="cme">Задание 5: Button</label><br>
+<button type="button" id="cme" name="cme" onclick="alert('Hello World!')">Click me!</button><br><br>
+<label>Здадание 6: Image</label><br>
+<img src="../../src/img/img_1.png" alt="HomeWork Page" width="300" height="300"><br><br>
+<label>Задание 7: P</label>
+<p>На этом месте могла быть Ваша реклама.</p><br><br>
+<label>Задание 8: A</label><br>
+<a href="https://github.com/Sentelzzz">Welcome to my GIT!</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </body>
 </html>
